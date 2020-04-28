@@ -8,4 +8,4 @@
 > - 8버전부터는 인증 플러그인을 caching_sha2_password 방식을 사용
 > - 드라이버에서 지원을 안하는 경우 접속에러가 발생
 > - 컨테이너를 띄울 때 다음과 같은 방식으로 명령어를 실행하여 해결
-> docker run -p 3306:3306 --name mysql_80 -e MYSQL_ROOT_PASSWORD=password -d mysql:8 mysqld --default-authentication-plugin=mysql_native_password
+> - docker run -p 3306:3306 --name mysql_80 -e MYSQL_ROOT_PASSWORD=password -d mysql:8 mysqld --default-authentication-plugin=mysql_native_password
